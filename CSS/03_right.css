@@ -1,0 +1,149 @@
+#right-container {
+  background-color: #f5f2f0;
+  flex: 65%;
+}
+
+#right-container hr {
+  width: 300px;
+  position: absolute;
+  left: 38%;
+  top: 9%;
+  background-color: #7a7978;
+  height: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  margin: 60px 80px 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #969595;
+}
+
+.navbar a:hover {
+  color: #3a3a39;
+}
+
+.right-header {
+  margin: 30px 80px 0 50px;
+  position: relative;
+}
+
+.title {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 100px;
+  -webkit-text-fill-color: transparent;
+  color: #828180;
+  -webkit-text-stroke-width: 2px;
+}
+
+.title-2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 100px;
+  padding-left: 130px;
+  color: #333333;
+}
+
+.sub-title {
+  position: absolute;
+  left: 450px;
+  top: 175px;
+  font-family: 'Merriweather', serif;
+  color: #969595;
+}
+
+.title-button {
+  padding-left: 450px;
+}
+
+.title-button button {
+  background-color: #333333;
+  color: #f1eeec;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.social-media {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.social-media i {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+
+
+.right-footer {
+  margin: 10px 80px 0 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-footer .vertical-line {
+  border-left: 2px solid #000;
+  height: 360px;
+  position: absolute;
+  left: 84px;
+  top: 27px;
+}
+
+.right-footer .arrow {
+  position: absolute;
+  right: -20px;
+  width: 50px;
+  top: 200px;
+}
+
+.right-footer-left span {
+  height: 15px;
+  width: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.right-footer-left li {
+  line-height: 2.8;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+.right-footer-left li:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.right-footer-right {
+  padding-top: 50px;
+  
+}
+
+.right-footer-right i {
+  width: 100px;
+}
+
+.right-footer-right p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.right-footer-right img {
+  width: 350px;
+}
+
